@@ -83,7 +83,7 @@ class Main extends \Cvy\DesignPatterns\Singleton
   public function add_export_exclusions( array $rel_pathes ) : Main
   {
     $pathes = array_map(
-      fn( $rel_path ) => basename( $this->get_app_root_dir() ) . $rel_path,
+      fn( $rel_path ) => basename( $this->get_app_root_dir() ) . '/' . $rel_path,
       $rel_pathes
     );
 
