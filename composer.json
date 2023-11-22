@@ -1,0 +1,11 @@
+{
+  "name": "cvy/util-wp-all-in-one-migration",
+  "autoload": {
+    "psr-4": {
+      "Cvy\\WP\\AllInOneMigration\\": "src/"
+    }
+  },
+  "require": {
+    "cvy/util-design-patterns": "^1.0"
+  }
+}
